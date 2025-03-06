@@ -491,6 +491,209 @@ Let’s build something amazing together!
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   transition: transform 0.3s ease-in-out;
 }
+  @media screen and (max-width: 1024px) {
+  .header {
+    flex-direction: column;
+    text-align: center;
+    padding: 15px;
+  }
+
+  .nav-links {
+    margin-left: -20px;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+
+  .nav-links a {
+    font-size: 1rem;
+  }
+
+  .hero-title {
+    font-size: 1.2rem;
+  }
+
+  .projects-grid {
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  }
+
+  .about-image-wrapper {
+    max-width: 90%;
+    height: auto;
+    transform: none;
+  }
+    
+
+  .project-button {
+    margin-left: auto;
+    margin-right: auto;
+  }
+     .dark-mode-toggle {
+          cursor: pointer;
+          border: none;
+          background: none;
+          font-size: 1.5rem;
+          color: var(--nav-link-color);
+          transition: color 0.3s ease;
+          margin-right: 40px;
+          margin-bottom: -50px;
+          font-size: 16px;
+          margin-left: auto; /* Push it to the right */
+        }
+           .skills-container {
+    flex-direction: row; /* Arrange skills in a row */
+    flex-wrap: wrap; /* Allow wrapping */
+    justify-content: center; /* Center align in small screens */
+    gap: 10px;
+  }
+
+  .skill-category {
+    flex: 1 1 calc(50% - 10px); /* Makes each category take half width */
+    min-width: 150px; /* Prevents items from getting too small */
+  }
+
+  .skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+
+  .skill-item {
+    padding: 8px 12px;
+
+    border-radius: 5px;
+    font-size: 14px;
+  }
+    .skill-category-title {
+  font-size: 1.3rem;
+  font-weight: bold;
+  margin-bottom: 15px;
+  color: #808080;
+}
+  .logo {
+          font-size: 1.3rem;
+          font-weight: bold;
+        }
+
+}
+
+@media screen and (max-width: 768px) {
+  .hero {
+    padding: 100px 20px 80px;
+  }
+    .header {
+    flex-direction: column;
+    align-items: center;
+    padding: 1px;
+  }
+
+  .hero-title {
+    font-size: 2rem;
+  }
+
+  .about-content {
+    flex-direction: column;
+  }
+
+  .projects-grid {
+    gap: 80px; /* Adjust space between projects */
+  }
+
+  .project-card {
+    margin-bottom: 15px; /* Adds spacing between project items */
+  }
+  .skills-container {
+    flex-direction: row; /* Arrange skills in a row */
+    flex-wrap: wrap; /* Allow wrapping */
+    justify-content: center; /* Center align in small screens */
+    gap: 10px;
+  }
+
+  .skill-category {
+    flex: 1 1 calc(50% - 10px); /* Makes each category take half width */
+    min-width: 150px; /* Prevents items from getting too small */
+  }
+
+  .skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+
+  .skill-item {
+    padding: 8px 12px;
+   
+    border-radius: 5px;
+    font-size: 14px;
+  }
+      .skill-category-title {
+  font-size: 1.3rem;
+  font-weight: bold;
+  margin-bottom: 15px;
+  color: #808080;
+}
+    }
+
+.about {
+  padding: -20px 5px;
+}
+  
+
+}
+
+@media screen and (max-width: 480px) {
+  .hero-title {
+    font-size: 1.8rem;
+  }
+
+  .hero-subtitle {
+    font-size: 1rem;
+  }
+
+  .projects-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .nav-links {
+    flex-direction: row;
+    gap: 20px;
+    margin-right: 80px;
+  }
+
+  .project-button {
+    width: 50%;
+  }
+     .skills-container {
+    flex-direction: row; /* Arrange skills in a row */
+    flex-wrap: wrap; /* Allow wrapping */
+    justify-content: center; /* Center align in small screens */
+    gap: 10px;
+  }
+
+  .skill-category {
+    flex: 1 1 calc(50% - 10px); /* Makes each category take half width */
+    min-width: 150px; /* Prevents items from getting too small */
+  }
+
+  .skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+
+  .skill-item {
+    padding: 8px 12px;
+
+    border-radius: 5px;
+    font-size: 14px;
+  }
+       .skill-category-title {
+  font-size: 1.3rem;
+  font-weight: bold;
+  margin-bottom: 15px;
+  color: #808080;
+}
+    
+}
           
       `}</style>
     </>
