@@ -158,13 +158,13 @@ Let’s build something amazing together!
         title: "Calmly",
         description: "A mental health chatbot using AI where a  user can sign up,confide and find solace in our Chatbot and then track the process.",
        
-        link: "#"
+        link: "https://calmlyremake-46ibcq958-refiloe-mokhothotsos-projects.vercel.app/"
       },
       {
         title: "My Repairs",
         description: "A self service platform where a user can request a service and the service provider will attend to those needs.",
         
-        link: "#"
+        link: "https://my-repairs-j9oc.vercel.app/"
       },
       {
         title: "Fake Certificate Detector using CNN",
