@@ -170,7 +170,7 @@ Let’s build something amazing together!
         title: "Fake Certificate Detector using CNN",
         description: "A machine learning model that uses Convolutional Neuron Network and Python libraries like Numpy,Sci-kit learn and others to detect whether a certificate is original or fake.",
        
-        link: "#"
+        link: "https://my-repairs-j9oc.vercel.app/"
       }
     ].map((project, index) => (
       <motion.div
