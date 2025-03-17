@@ -164,13 +164,13 @@ Let’s build something amazing together!
         title: "My Repairs",
         description: "A self service platform where a user can request a service and the service provider will attend to those needs.",
         
-        link: "https://my-repairs-j9oc.vercel.app/"
+        link: "https://main--myrepairstest.netlify.app/"
       },
       {
-        title: "Fake Certificate Detector using CNN",
-        description: "A machine learning model that uses Convolutional Neuron Network and Python libraries like Numpy,Sci-kit learn and others to detect whether a certificate is original or fake.",
+        title: "Github",
+        description: "Take a look at my passtion projects on Github",
        
-        link: "https://my-repairs-j9oc.vercel.app/"
+        link: "https://github.com/Refiloe-hub"
       }
     ].map((project, index) => (
       <motion.div
